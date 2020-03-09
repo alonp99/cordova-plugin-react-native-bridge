@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-pg2rn-bridge" version="0.0.4">
    <name>PG_2_RN_Bridge</name>
+   <description>a cordova plugin template</description>
+    <author>boby913</author>
+    <license>MIT</license>
+    <keywords>cordova plugin,cordova template</keywords>
+    <repo>https://github.com/boby913/cordova-plugin-template.git</repo>
+    <issue>https://github.com/boby913/cordova-plugin-template/issues</issue>
+   
+    <engines>
+        <engine name="cordova" version=">=6.0.0"/>
+        <engine name="cordova-android" version=">=5.0.0"/>
+        <engine name="cordova-ios" version=">=4.0.0"/>
+        <engine name="android-sdk" version=">=19" />
+        <engine name="apple-ios" version=">=8.0" />
+    </engines>
+   
+   
    <js-module name="PG_2_RN_Bridge" src="www/PG_2_RN_Bridge.js">
       <clobbers target="cordova.plugins.PG_2_RN_Bridge" />
    </js-module>
